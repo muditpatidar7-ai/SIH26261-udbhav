@@ -439,3 +439,84 @@ h2 { margin: 0; color: #323833; font: 500 18px/1.2 var(--serif); }
   .document-kind { display: none; }
   .footer { gap: 7px; }
 }
+
+/* Improve legibility while preserving the existing dense review layout. */
+@media (min-width: 761px) {
+  .brand strong { font-size: 14px; }
+  .brand small, .side-label, .privacy-mark { font-size: 10px; }
+  .side-link { font-size: 13px; }
+  .recent-item { font-size: 12px; }
+  .recent-item small, .sidebar-bottom p { font-size: 11px; }
+  .breadcrumb { font-size: 12px; }
+  .environment { font-size: 10px; }
+  .eyebrow { font-size: 10px; }
+  .heading-sub { font-size: 14px; }
+  .quiet-button { font-size: 12px; }
+  .step { font-size: 12px; }
+  .step-number, .section-index { font-size: 11px; }
+  .section-title h2, h2 { font-size: 20px; }
+  .file-spec { font-size: 10px; }
+  .dropzone > strong { font-size: 14px; }
+  .dropzone > span, .outline-button { font-size: 12px; }
+  .sample-strip b { font-size: 12px; }
+  .sample-strip small { font-size: 11px; }
+  .sample-strip button, .report-link { font-size: 12px; }
+  .scenario-links > span { font-size: 9px; }
+  .scenario-links button { font-size: 11px; }
+  .aside-heading { font-size: 10px; }
+  .sequence-number { font-size: 11px; }
+  .sequence-row b { font-size: 12px; }
+  .sequence-row small, .aside-note { font-size: 11px; }
+  .sequence-mark { font-size: 9px; }
+  .footer { font-size: 10px; }
+  .error-banner { font-size: 13px; }
+  .processing-panel p:last-child { font-size: 13px; }
+  .document-kind { font-size: 9px; }
+  .report-toolbar strong { font-size: 12px; }
+  .report-id { font-size: 9px; }
+  .gauge-label { font-size: 9px; }
+  .status { font-size: 9px; }
+  .summary-copy > p:not(.eyebrow) { font-size: 12px; }
+  .summary-tags > span:last-child, .count-label { font-size: 11px; }
+  .panel-heading h2, .compact h2 { font-size: 18px; }
+  .preview-head { font-size: 8px; }
+  .preview-title { font-size: 10px; }
+  .preview-person b { font-size: 10px; }
+  .preview-data b { font-size: 8px; }
+  .preview-person small, .preview-data small { font-size: 7px; }
+  .field-label { font-size: 9px; }
+  .field-value { font-size: 12px; }
+  .confidence, .confidence code { font-size: 10px; }
+  .field-note { font-size: 10px; }
+  .signal-row b { font-size: 11px; }
+  .signal-row small { font-size: 10px; }
+  .check-item b { font-size: 11px; }
+  .check-item small, .evidence { font-size: 10px; }
+  .audit-entry b { font-size: 10px; }
+  .audit-entry small { font-size: 10px; }
+  .audit-entry time { font-size: 9px; }
+  .human-note b, .human-note small { font-size: 10px; }
+}
+
+@media (max-width: 760px) {
+  .heading-sub { font-size: 12px; }
+  .step { font-size: 10px; }
+  .sequence-row b { font-size: 11px; }
+  .sequence-row small, .aside-note { font-size: 10px; }
+  .footer { font-size: 9px; }
+  .field-label { font-size: 8px; }
+  .field-value { font-size: 10px; }
+  .confidence, .confidence code { font-size: 9px; }
+  .signal-row b { font-size: 10px; }
+  .signal-row small, .check-item small, .evidence { font-size: 9px; }
+  .check-item b { font-size: 10px; }
+  .audit-entry b, .audit-entry small, .human-note b, .human-note small { font-size: 9px; }
+}
+
+@media (max-width: 480px) {
+  .heading-sub { font-size: 11px; }
+  .field-label { font-size: 7.5px; }
+  .field-value { font-size: 9px; }
+  .confidence, .confidence code { font-size: 8px; }
+  .summary-copy > p:not(.eyebrow) { font-size: 10px; }
+}
